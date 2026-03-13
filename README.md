@@ -17,6 +17,25 @@ DRONA is an advanced, edge-ready code review system that serves as a tireless Se
 
 Drona isn't just a linter; it's a **Review Agent**. Our goal is to bridge the gap between human expertise and automated checks by providing contextual, high-reasoning feedback that understands not just the *what*, but the *why* of your code.
 
+## 📸 Dashboard Preview
+
+![Drona Dashboard](public/assets/dashboard-preview.png)
+
+## ⚔️ Drona vs. Raw AI Chat: Why Choose Drona?
+
+"Can't I just paste my code into ChatGPT?" **You could, but here is why you shouldn't:**
+
+| Feature | Raw AI Chat (GPT-4/Gemini) | 🛡️ DRONA AI |
+| :--- | :--- | :--- |
+| **Context** | General purpose, tends to be "agreeable" | **Senior Security Auditor** persona with strict non-negotiable rules. |
+| **Output** | Conversational, long-winded text | **Structured JSON** results with specialized categorization. |
+| **Fixes** | Suggestions hidden in paragraphs | **Magic Fix**: Copy-paste ready, secure code blocks. |
+| **Reliability** | "Quota Exceeded" = Stopping point | **Auto-Fallback**: Switches to Local Static Scan instantly. |
+| **Precision** | May hallucinate basic syntax | **Hybrid Engine**: Hardened regex catches 100% of basic RCE/SQLi. |
+| **Workflow** | Copy-pasting between tabs | **Monaco OS**: Integrated VS Code engine for a native feel. |
+
+---
+
 ## ✨ Key Features
 
 ### 🧠 Triple-Threat Analysis Engine
