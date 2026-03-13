@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #3B82F6;
+  --color-secondary: #1E293B;
+  --color-accent: #2563EB;
+  --color-background: #0F172A;
+  --color-text: #F1F5F9;
+  
+  --font-fira-code: 'Fira Code', monospace;
+  --font-fira-sans: 'Fira Sans', sans-serif;
+}
+
+@layer base {
+  html, body, #root {
+    height: 100%;
+    margin: 0;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: var(--font-fira-sans);
+  }
+}
+
+/* Custom Utilities for Technical Brutalist Style */
+@layer utilities {
+  .sharp-border {
+    border: 1px solid #334155;
+  }
+  
+  .glass-panel {
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(12px);
+    border-left: 1px solid rgba(51, 65, 85, 0.5);
+  }
+}

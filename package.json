@@ -1,0 +1,33 @@
+{
+  "name": "drona-ai-review",
+  "version": "1.0.0",
+  "description": "AI-powered code review agent system",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:all": "concurrently \"npm run dev\" \"npm run dev:frontend\"",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "ai",
+    "code-review",
+    "drona",
+    "antigravity"
+  ],
+  "author": "Berkay",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@hono/node-server": "^1.19.11",
+    "dotenv": "^17.3.1",
+    "hono": "^4.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "concurrently": "^9.2.1",
+    "tsx": "^4.7.0"
+  }
+}

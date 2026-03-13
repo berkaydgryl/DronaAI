@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+.DS_Store
+
+# Environment
+.env
+.env.local
+
+# Build
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary
+payload.json
+test_api.js
+
+# AI Agent
+.agent/
